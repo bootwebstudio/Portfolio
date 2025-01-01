@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.award-winning {
+  color: transparent;
+  -webkit-text-stroke: 2px #0c0c0c;
+}
+
+/****************************************\
+------------Underline Animation-----------
+\****************************************/
+
+.animate-underline {
+  position: relative;
+  z-index: 10;
+}
+
+.animate-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 0.8px;
+  background-color: #0c0c0c;
+  transition: all ease 0.2s;
+}
+
+.animate-underline:hover::after {
+  width: 100%;
+}
+
+/****************************************\
+----------Hover Button Animation----------
+\****************************************/
+
+.animate-hover {
+  color: #0c0c0c;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #0c0c0c;
+  z-index: 1;
+}
+
+.animate-hover::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #0c0c0c;
+  transition: all ease 0.2s;
+  z-index: -1;
+}
+
+.animate-hover:hover::after {
+  top: 0;
+  border-radius: 0;
+}
+
+.animate-hover:hover {
+  color: #fcfcfc;
+}

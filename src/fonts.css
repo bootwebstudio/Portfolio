@@ -1,0 +1,17 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Nohemi";
+  src: url("./assets/fonts/Nohemi-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Nohemi";
+  src: url("./assets/fonts/Nohemi-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Nohemi";
+  src: url("./assets/fonts/Nohemi-SemiBold.ttf") format("truetype");
+}
