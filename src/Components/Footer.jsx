@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import { useRef } from 'react'
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import 'remixicon/fonts/remixicon.css';
 
 const Footer = React.memo(() => {
   const footerRef = useRef(null);

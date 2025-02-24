@@ -1,4 +1,5 @@
 import React from 'react'
+import 'remixicon/fonts/remixicon.css';
 import LocomotiveScroll from 'locomotive-scroll'
 import Loader from './Components/Loader'
 import Hero from './Components/Hero'
